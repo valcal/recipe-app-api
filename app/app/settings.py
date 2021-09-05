@@ -33,6 +33,11 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     # My apps
     'core',
+    'user',
+
+    # 3rd party apps
+    'rest_framework',
+    'rest_framework.authtoken',
 
     # Default apps
     'django.contrib.admin',
